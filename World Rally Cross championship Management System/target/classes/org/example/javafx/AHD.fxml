@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" pickOnBounds="false" prefHeight="421.0" prefWidth="556.0" stylesheets="@AHD.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafx.AHD">
+
+   <children>
+      <AnchorPane id="head" prefHeight="50.0" prefWidth="557.0">
+         <children>
+
+            <Label layoutX="183.0" layoutY="13.0" text="Adding New Horse" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField id="text-field" fx:id="fieldHorseID" alignment="CENTER" layoutX="217.0" layoutY="93.0" onAction="#AddingHorseID" promptText="Horse ID" stylesheets="@AHD.css">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <TextField id="text-field" fx:id="fieldHorsename" alignment="CENTER" layoutX="217.0" layoutY="135.0" onAction="#AddingHorsename" promptText="Horse Name">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label id="Text" layoutX="72.0" layoutY="95.0" prefHeight="17.0" prefWidth="68.0" stylesheets="@AHD.css" text="Horse ID :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="Text" layoutX="72.0" layoutY="137.0" prefHeight="17.0" prefWidth="89.0" text="Horse Name :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label id="Text" layoutX="72.0" layoutY="182.0" prefHeight="17.0" prefWidth="89.0" text="Jockey Name :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="text-field" fx:id="FiledJockeyname" alignment="CENTER" layoutX="217.0" layoutY="180.0" onAction="#Addingjockeyname" promptText="Jockey Name">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label id="Text" layoutX="72.0" layoutY="224.0" prefHeight="17.0" prefWidth="89.0" text="Breed :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="text-field" fx:id="fieldbreed" alignment="CENTER" layoutX="217.0" layoutY="222.0" onAction="#addingbreed" promptText="Breed">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label id="Text" layoutX="72.0" layoutY="310.0" prefHeight="17.0" prefWidth="89.0" text="Race record :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="text-field" fx:id="filedAge" alignment="CENTER" layoutX="217.0" layoutY="265.0" onAction="#AddingAge" promptText="Age">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label id="Text" layoutX="72.0" layoutY="267.0" prefHeight="17.0" prefWidth="89.0" text="Age :">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField id="text-field" fx:id="filedracerecord" alignment="CENTER" layoutX="217.0" layoutY="308.0" onAction="#addingracerecord" promptText="Race Record">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Button id="button" fx:id="btnadd" layoutX="476.0" layoutY="352.0" mnemonicParsing="false" onAction="#Addingdetails" prefHeight="34.0" prefWidth="57.0" text="AHD" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+      <TextField id="text-field" fx:id="fieldgroup" alignment="CENTER" layoutX="217.0" layoutY="353.0" onAction="#addinga_group" promptText="Group">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label id="Text" layoutX="72.0" layoutY="355.0" prefHeight="17.0" prefWidth="89.0" text="Group">
+         <font>
+            <Font name="Bell MT Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button id="button" fx:id="btnbackadd" layoutX="411.0" layoutY="352.0" mnemonicParsing="false" onMouseClicked="#backfromadd" prefHeight="34.0" prefWidth="57.0" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

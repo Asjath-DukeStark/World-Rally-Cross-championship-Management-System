@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" stylesheets="@Menu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafx.HelloController">
+   <children>
+      <AnchorPane id="head" prefHeight="50.0" prefWidth="600.0">
+         <children>
+<!--            <ImageView fx:id="image_logo" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">-->
+<!--               <image>-->
+<!--                  <Image url="@//C:/Users/hp/Downloads/Horse-removebg-preview.png" />-->
+<!--               </image>-->
+<!--            </ImageView>-->
+            <Label alignment="CENTER" layoutX="160.0" layoutY="13.0" text="Welcome to the Rapid Run" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button id="button" fx:id="btnaddhorse" layoutX="66.0" layoutY="101.0" mnemonicParsing="false" onAction="#addinghorse" prefHeight="58.0" prefWidth="109.0" text="AHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnupdatehorse" layoutX="200.0" layoutY="101.0" mnemonicParsing="false" onAction="#updatinghorse" text="UHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btndeletehorse" layoutX="320.0" layoutY="101.0" mnemonicParsing="false" onAction="#deletinghorse" prefHeight="58.0" prefWidth="102.0" text="DHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="buttons" fx:id="btnstartrace" layoutX="48.0" layoutY="295.0" mnemonicParsing="false" onAction="#starttherace" prefHeight="42.0" prefWidth="143.0" text="START RACE" textAlignment="RIGHT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="17.0" />
+         </font>
+      </Button>
+      <Button id="button" fx:id="btnviewhorse" layoutX="439.0" layoutY="101.0" mnemonicParsing="false" onAction="#viewinghorse" text="VHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnselecthorse" layoutX="439.0" layoutY="173.0" mnemonicParsing="false" onAction="#selectinghorse" prefHeight="58.0" prefWidth="96.0" text="SDD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnsavehorse" layoutX="66.0" layoutY="173.0" mnemonicParsing="false" onAction="#savinghorse" prefHeight="58.0" prefWidth="102.0" text="SHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnwinninghorse" layoutX="196.0" layoutY="173.0" mnemonicParsing="false" onAction="#displayingwinninghorse" prefHeight="58.0" prefWidth="109.0" text="WHD" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnvisualizehorse" layoutX="323.0" layoutY="173.0" mnemonicParsing="false" onAction="#visualizinghorse" text="VWH" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="26.0" />
+         </font></Button>
+      <Button id="buttonE" fx:id="btnexit" layoutX="487.0" layoutY="296.0" mnemonicParsing="false" onAction="#exiting" text="EXIT" textAlignment="RIGHT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Button>
+      <Button id="buttons" layoutX="226.0" layoutY="296.0" mnemonicParsing="false" onAction="#stoprace" text="STOP RACE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

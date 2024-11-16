@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="background" prefHeight="335.0" prefWidth="532.0" stylesheets="@WHD.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.javafx.WHD">
+    <children>
+        <AnchorPane id="head" prefHeight="50.0" prefWidth="558.0">
+            <children>
+                <!--                <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--                    <image>-->
+                <!--                        <Image url="@//C:/Users/hp/Downloads/Horse-removebg-preview.png" />-->
+                <!--                    </image>-->
+                <!--                </ImageView>-->
+                <Label layoutX="161.0" layoutY="13.0" text="Winning Horse Details" textFill="WHITE">
+                    <font>
+                        <Font name="Britannic Bold" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <VBox layoutX="83.0" layoutY="98.0" prefHeight="126.0" prefWidth="376.0" spacing="10">
+            <TableView fx:id="WHDhorseTable" prefHeight="191.0" prefWidth="423.0">
+                <columns>
+                    <TableColumn fx:id="WHDcolHorseID" prefWidth="50.0" text="ID" />
+                    <TableColumn fx:id="WHDcolHorseName" prefWidth="100.0" text="Name" />
+                    <TableColumn fx:id="WHDcolGroup" prefWidth="73.0" text="Group" />
+               <TableColumn fx:id="Time" text="Time" />
+               <TableColumn fx:id="Place" prefWidth="69.33331298828125" text="Place" />
+                </columns>
+            </TableView>
+        </VBox>
+      <Button id="button" layoutX="137.0" layoutY="272.0" mnemonicParsing="false" onAction="#WHD" style="lor: #fe6769;" text="Winning Horse Details" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+         <Button id="button" fx:id="btnbackWHD" contentDisplay="RIGHT" layoutX="50.0" layoutY="272.0" onMouseClicked="#backfromWHD" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+      <Button id="button" fx:id="btnvisualizehorse" layoutX="350.0" layoutY="272.0" mnemonicParsing="false" onAction="#visualizinghorse" text="Visulaize Horse Details" textFill="WHITE">
+         <font>
+            <Font name="Verdana" size="14.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

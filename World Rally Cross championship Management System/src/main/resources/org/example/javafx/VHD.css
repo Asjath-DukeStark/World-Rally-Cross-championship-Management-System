@@ -1,0 +1,45 @@
+#background {
+
+    -fx-background-color: #ffff;
+
+}
+#head{
+    -fx-background-color:  #3498db;
+    -fx-border-radius: 50px;
+}
+#text-field {
+    -fx-background-color: #ffffff; /* Set the background color */
+    -fx-font-family: "Arial"; /* Set the font family */
+    -fx-font-size: 12px; ;
+    -fx-border-color: #000 ;
+    -fx-border-radius: 20px;
+}
+
+#button {
+    -fx-border-radius: 20px;
+    -fx-background-color: Transparent;
+    -fx-text-fill:  #000;
+    -fx-background-radius: 20;
+
+}
+
+#button:hover {
+    -fx-background-color:  #3498db;
+    -fx-text-fill: #fff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 15, 0, 0, 10);
+    -fx-border-radius: 100px;
+
+}
+
+#colum1{
+    -fx-background-color: #c9c9c9;
+    -fx-text-alignment: center;
+}
+
+#colum2{
+    -fx-background-color: #919191;
+    -fx-text-alignment: center;
+}
+
+
+

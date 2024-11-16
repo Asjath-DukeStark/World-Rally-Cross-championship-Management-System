@@ -1,0 +1,74 @@
+#background {
+
+    -fx-background-color: #ffff;
+
+}
+#head{
+    -fx-background-color:  #3498db;
+    -fx-border-radius: 20px;
+}
+#text-field {
+    -fx-background-color: #ffffff; /* Set the background color */
+    -fx-font-family: "Arial"; /* Set the font family */
+    -fx-font-size: 12px; ;
+    -fx-border-color: #000 ;
+    -fx-border-radius: 20px;
+}
+
+#button {
+    -fx-border-radius: 20px;
+    -fx-background-color: Transparent;
+    -fx-text-fill: #3498db;
+    -fx-border-color:  #3498db;
+    -fx-background-radius: 20;
+
+
+
+}
+
+#buttons {
+    -fx-border-radius: 20px;
+    -fx-background-color: Transparent;
+    -fx-text-fill: #fe6769;
+    /*-fx-border-color: #000;*/
+    -fx-background-radius: 20;
+
+}
+#buttonE {
+    -fx-border-radius: 20px;
+    -fx-background-color: Transparent;
+    -fx-text-fill: #fe6769;
+    /*-fx-border-color: #000;*/
+}
+#button:hover {
+    -fx-background-color: #3498db;
+    -fx-text-fill: #FFF;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 15, 0, 0, 10);
+    -fx-border-radius: 50px;
+    -fx-border-color: transparent;
+}
+
+#buttons:hover {
+    -fx-background-color: #fe6769;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 15, 0, 0, 10);
+    -fx-border-radius: 50px;
+    -fx-border-color: transparent;
+}
+
+#buttonE:hover {
+    -fx-background-color: #fe6769;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 15, 0, 0, 10);
+    -fx-border-radius: 20px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 20;
+
+}
+
+
+
+
+
+
+
